@@ -1,0 +1,89 @@
+.nav-container {
+    background: #464751;
+}
+
+nav {
+    background: #464751;
+    color: white;
+}
+
+.link-1, .link-1:hover {
+    color: white;
+}
+
+.segment-1 {
+    background: #ddbf70;
+}
+
+.segment-2 {
+    background: #97c89a;
+    color: #4f6e5f;
+}
+
+.segment-3 {
+    background: #5964aa;
+    color: white;
+}
+
+.btn-black {
+    background: #464751;
+    color: white;
+    border-radius: 6px;
+    transition: 300ms;
+}
+
+.btn-black:hover {
+    cursor: pointer;
+    background: #ddbf70;
+    color: black;
+    transition: 300ms;
+}
+
+.hr-white {
+    border-bottom: 1px solid white;
+}
+
+
+
+
+
+/*Font size classes*/
+.fs-1 {
+    font-size: 3em;
+}
+
+.fs-2 {
+    font-size: 2.5em;
+}
+
+.fs-3 {
+    font-size: 2em;
+}
+
+.fs-4 {
+    font-size: 1.5em;
+}
+
+.fs-4_5 {
+    font-size: 1.25em;
+}
+
+.fs-5 {
+    font-size: 1em;
+}
+
+.fs-6 {
+    font-size: 0.5em;
+}
+
+@media all and (min-width: 768px) {
+    /*When text is on the left size*/
+    .text-row-left {
+        border-right: 3px solid black;
+    }
+
+    /*When text is on the right size*/
+    .text-row-right {
+        border-left: 3px solid black;
+    }
+}
